@@ -16,7 +16,19 @@ const styles = StyleSheet.create({
   card: {
     height: 300,
     justifyContent: 'center',
-    width: windowWidth,
+    width: 0.9 * windowWidth,
+    alignSelf: 'center',
+    marginBottom: 20,
+    borderRadius: 15,
+    overflow: 'hidden',
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 10,
+    },
+    shadowOpacity: 0.53,
+    shadowRadius: 13.97,
+    elevation: 21,
   },
   title: {
     fontSize: 28,
